@@ -1,54 +1,53 @@
 <!DOCTYPE html>
-<html lang="es"  ng-app="myApp">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1">
-        <link rel="shortcut icon" type="image/x-icon" href="img/icon.png" />
-        <link rel="stylesheet" type="text/css" href="css/fonts-mowisat.css" />
-        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-        <link rel="stylesheet" type="text/css" href="css/loader.css" />
-        <link rel="stylesheet" type="text/css" href="css/fonts-apply.css" />
-        <script type="text/javascript" src="js/jquery.js"></script>	
-        <script type="text/javascript" src="js/functions.js"></script>
-        <script src="js/materialize.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/materialize.css" />
-        <script src="js/angular.min.js"></script>
-        <script src="js/sanitize.min.js"></script>
-        <script src="js/module.js"></script>
-        <script src="js/controllers.js"></script>
-        <script src="js/factory.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js?fin20"></script>
-        <script src="js/toastr.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/toastr.css" />
+<html lang="es" ng-app="myApp">
 
-        <script>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.png" />
+    <link rel="stylesheet" type="text/css" href="css/fonts-mowisat.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/loader.css" />
+    <link rel="stylesheet" type="text/css" href="css/fonts-apply.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+    <script src="js/materialize.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/materialize.css" />
+    <script src="js/angular.min.js"></script>
+    <script src="js/sanitize.min.js"></script>
+    <script src="js/module.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/factory.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js?fin20"></script>
+    <script src="js/toastr.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/toastr.css" />
+
+    <script>
         window.onload = function() {
             Particles.init({
                 selector: '.background-particles',
                 color: '#75A5B7',
                 maxParticles: 130,
                 connectParticles: true,
-                responsive: [
-                    {
-                        breakpoint: 768,
-                        options: {
-                            maxParticles: 80
-                        }
-                        }, {
-                        breakpoint: 375,
-                        options: {
-                            maxParticles: 50
-                        }
+                responsive: [{
+                    breakpoint: 768,
+                    options: {
+                        maxParticles: 80
                     }
-                ]
+                }, {
+                    breakpoint: 375,
+                    options: {
+                        maxParticles: 50
+                    }
+                }]
             });
         };
-        </script>
+    </script>
 
-        <title>Newt X</title>
+    <title>Newt X</title>
 
-        <style>
+    <style>
         .background-particles {
             position: absolute;
             display: block;
@@ -56,51 +55,117 @@
             left: 0;
             z-index: 0;
         }
-        </style>
+    </style>
+
+    <style>
+        .container-title {
+            display: block !important;
+            height: 100% !important;
+            position: absolute !important;
+            overflow: hidden !important;
+            width: 100% !important;
+            left: 0 !important;
+        }
+        
+        .helper-title-slider {
+            position: absolute !important;
+            display: block !important;
+            vertical-align: middle !important;
+            width: 100%;
+            top: 20% !important;
+        }
+        
+        @media (min-width: 992px) {
+            .helper-title-slider {
+                position: absolute !important;
+                display: block !important;
+                vertical-align: middle !important;
+                width: 100%;
+                top: 25% !important;
+            }
+        }
+        
+        .helper-title {
+            position: absolute !important;
+            display: block !important;
+            vertical-align: middle !important;
+            width: 100%;
+            top: 35% !important;
+        }
+        
+        @media (min-width: 992px) {
+            .helper-title {
+                position: absolute !important;
+                display: block !important;
+                vertical-align: middle !important;
+                width: 100%;
+                top: 40% !important;
+            }
+        }
+        
+        .content-title {
+            #position: relative !important;
+            #top: -50% !important;
+            margin: 0 auto !important;
+            width: 100% !important;
+            left: 0% !important;
+        }
+    </style>
 
 
-    </head>
-    <body style="background-color: rgba(125, 29, 228, 1);" ng-controller="index">
+</head>
 
-        <!-- .page-loader-->
-        <div id="loader-wrapper">
-            <div id="loader"></div>
-            <div class="loader-section"></div>
-        </div> 
+<body style="background-color: rgba(125, 29, 228, 1);" ng-controller="index">
 
-        <div style="margin-top: 50px;" id="login-page" class="row">
-            
-            <div class="col-xs-1 col-sm-2 col-md-4"></div>
+    <!-- .page-loader-->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section"></div>
+    </div>
 
-            <div style="z-index: 1;" class="col-xs-10 col-sm-8 col-md-4 z-depth-4 card-panel text-center">
-                
-                <div class="col-md-12">
-                    <img style="width: 279px;" src="img/Newt X Logo.png" alt="">              
+    <div class="container-title">
+        <div class="helper-title-slider">
+            <div class="content-title">
+
+                <div style="margin-top: 50px;" id="login-page" class="row">
+
+                    <div class="col-xs-1 col-sm-2 col-md-4"></div>
+
+                    <div style="z-index: 1;" class="col-xs-10 col-sm-8 col-md-4 z-depth-4 card-panel text-center">
+
+                        <div class="col-md-12">
+                            <img style="width: 250px;" src="img/Newt X Logo.png" alt="">
+                        </div>
+
+                        <div class="col-md-12 text-left">
+                            <br />
+                            <center>
+                                <h2>Coming Soon</h2>
+                            </center><br /><br />Latin America's favorite digital currency exchange. El cambio de moneda digital favorito de América Latina.
+
+                        </div>
+
+                        <br /><br />
+
+                    </div>
+
+                    <div class="col-xs-1 col-sm-2 col-md-4"></div>
+
                 </div>
 
-                <div class="col-md-12 text-left">
-                    <br />
-                    <center><h2>Coming Soon</h2></center><br /><br />
-                    
-                    Newt X - Latin America's favorite digital currency exchange. El cambio de moneda digital favorito de América Latina. .   
+                <div style="margin-top: 50px; color: white;" class="row text-center">
+
+                    All rights reserved 2018 Newt X
+
                 </div>
 
-                <br /><br />
-            
             </div>
-
-            <div class="col-xs-1 col-sm-2 col-md-4"></div>
-
         </div>
+    </div>
 
-        <div style="margin-top: 50px; color: white;" class="row text-center">
-            
-            All rights reserved 2018 Newt X 
-            
-        </div>
+    <canvas class="background-particles"></canvas>
+    <script src="js/particles.js"></script>
 
-        <canvas class="background-particles"></canvas>
-        <script src="js/particles.js"></script>
+</body>
 
-    </body>
 </html>

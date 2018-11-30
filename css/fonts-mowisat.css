@@ -1,21 +1,13 @@
 @font-face {
-	font-family: 'mowisat';
-	src:url('../fonts/mowisat/Roboto-Black.ttf') format('truetype'),
-            url('../fonts/mowisat/Roboto-BlackItalic.ttf') format('truetype'),
-            url('../fonts/mowisat/Roboto-Bold.ttf') format('truetype'),
-            url('../fonts/mowisat/Roboto-BoldCondensed.ttf') format('truetype'),
-            url('../fonts/mowisat/Roboto-BoldCondensedItalic.ttf') format('truetype'),
-            url('../fonts/mowisat/Roboto-BoldItalic.ttf') format('truetype'),
-            url('../fonts/mowisat/Roboto-Condensed.ttf') format('truetype'), 
-            url('../fonts/mowisat/Roboto-CondensedItalic.ttf') format('truetype'),
-            url('../fonts/mowisat/Roboto-Italic.ttf') format('truetype'),
-            url('../fonts/mowisat/Roboto-Light.ttf') format('truetype')
-            url('../fonts/mowisat/Roboto-LightItalic.ttf') format('truetype'),
-            url('../fonts/mowisat/Roboto-Medium.ttf') format('truetype'),
-            url('../fonts/mowisat/Roboto-MediumItalic.ttf') format('truetype'),
-            url('../fonts/mowisat/Roboto-Regular.ttf') format('truetype'),
-            url('../fonts/mowisat/Roboto-Thin.ttf') format('truetype'),
-            url('../fonts/mowisat/Roboto-ThinItalic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'openSans';
+    src: url('../fonts/mowisat/Roboto-Black.ttf') format('truetype'), url('../fonts/mowisat/Roboto-BlackItalic.ttf') format('truetype'), url('../fonts/mowisat/Roboto-Bold.ttf') format('truetype'), url('../fonts/mowisat/Roboto-BoldCondensed.ttf') format('truetype'), url('../fonts/mowisat/Roboto-BoldCondensedItalic.ttf') format('truetype'), url('../fonts/mowisat/Roboto-BoldItalic.ttf') format('truetype'), url('../fonts/mowisat/Roboto-Condensed.ttf') format('truetype'), url('../fonts/mowisat/Roboto-CondensedItalic.ttf') format('truetype'), url('../fonts/mowisat/Roboto-Italic.ttf') format('truetype'), url('../fonts/mowisat/Roboto-Light.ttf') format('truetype') url('../fonts/mowisat/Roboto-LightItalic.ttf') format('truetype'), url('../fonts/mowisat/Roboto-Medium.ttf') format('truetype'), url('../fonts/mowisat/Roboto-MediumItalic.ttf') format('truetype'), url('../fonts/mowisat/Roboto-Regular.ttf') format('truetype'), url('../fonts/mowisat/Roboto-Thin.ttf') format('truetype'), url('../fonts/mowisat/Roboto-ThinItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/openSans/OpenSans-Bold.ttf') format('truetype'), url('../fonts/openSans/OpenSans-BoldItalic.ttf') format('truetype'), url('../fonts/openSans/OpenSans-ExtraBold.ttf') format('truetype'), url('../fonts/openSans/OpenSans-ExtraBoldItalic.ttf') format('truetype'), url('../fonts/openSans/OpenSans-Italic.ttf') format('truetype'), url('../fonts/openSans/OpenSans-Light.ttf') format('truetype'), url('../fonts/openSans/OpenSans-LightItalic.ttf') format('truetype'), url('../fonts/openSans/OpenSans-Regular.ttf') format('truetype'), url('../fonts/openSans/OpenSans-SemiBold.ttf') format('truetype'), url('../fonts/openSans/OpenSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
